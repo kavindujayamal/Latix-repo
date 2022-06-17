@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Short+Stack&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+
+/* .multi-play-admin-btn {
+width: 300px;
+height: 50px;
+position: relative;
+display: inline-block;
+cursor: pointer;
+outline: none;
+border: 0;
+vertical-align: middle;
+text-decoration: none;
+font-size: inherit;
+
+} */
+
+
+
+
+.multi-play-admin-btn {
+  width: 400px;
+  height: 65px;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  font-size: 2.3rem;
+  font-weight: 500;
+  border-radius: 0.50rem;
+  color: rgb(219, 22, 55);
+  background: transparent;
+  transition: all 0.3s ease;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  /* font-family: 'Short Stack', cursive; */
+  }
+
+  .multi-play-admin-btn {
+    /* background: rgb(96, 9, 240);
+    background: linear-gradient(
+      0deg,
+      rgba(96, 9, 240, 1) 100%,
+      rgba(129, 5, 240, 1) 0%
+    ); */
+    background: white;
+    background: linear-gradient(
+      0deg,
+      white 100%,
+      rgb(228, 228, 228) 0%
+    );
+    border: none;
+  }
+  .multi-play-admin-btn:before {
+    height: 0%;
+    width: 2px;
+  }
+  .multi-play-admin-btn:hover {
+    box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.5),
+      -4px -4px 6px 0 rgba(116, 125, 136, 0.5),
+      inset -4px -4px 6px 0 rgba(255, 255, 255, 0.2),
+      inset 4px 4px 6px 0 rgba(0, 0, 0, 0.4);
+  }
+
+.Cretaor-controls-msg
+{
+  color:white;
+  font-size: 1.8rem;
+}
+
+
+
+

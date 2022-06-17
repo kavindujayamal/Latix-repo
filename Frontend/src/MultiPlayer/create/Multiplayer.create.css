@@ -1,0 +1,185 @@
+* {
+  font-family: "Dongle", sans-serif;
+}
+.h-60 {
+  height: 60%;
+}
+
+.h-50 {
+  height: 50%;
+}
+
+.h-30 {
+  height: 30%;
+}
+.h-20 {
+  height: 20%;
+}
+
+.h-10 {
+  height: 10%;
+}
+
+.create-operator {
+  font-size: 8rem !important;
+  /* font-family: 'Short Stack', cursive; */
+  font-weight: bold;
+}
+
+.multi-range-text {
+  position: relative;
+  left: -110px;
+  font-size: 1.5rem;
+  /* font-family: 'Short Stack', cursive; */
+  color: white;
+}
+
+.multi-create-radioPad {
+  position: relative;
+  display: inline-block;
+ align-items: center;
+ justify-content: center;
+}
+
+.multi-create-radioPad__wrapper {
+  width: 5rem;
+  height: 5rem;
+  cursor: pointer;
+  /* background: white;
+  color: rgba(195, 0, 255, 0.637); */
+  color: white;
+  /* background: rgb(96,9,240); */
+  background-color: rgba(195, 0, 255, 0.637);;
+  background: linear-gradient(0deg, rgba(96,9,240,1) 0%, rgba(195, 0, 255, 1) 100%);
+  /* text-transform: uppercase; */
+  font-size: 5rem;
+  font-weight: 700;
+  margin: 5px;
+  /* padding: 15px; */
+  text-align: center;
+  font-family: "Dongle", sans-serif;
+  /* border-radius: 0.3rem; */
+  border-radius: 0.2em;
+  will-change: transform;
+  transition: 0.2s all ease-in-out;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+}
+.multi-create-radioPad__wrapper:active,
+.multi-create-radioPad__wrapper--selected {
+  background: white !important;
+  color:  rgba(195, 0, 255, 1);
+}
+.multi-create-radioPad__wrapper:hover {
+  background: white;
+  color:  rgba(195, 0, 255, 1);
+}
+.multi-create-radioPad__radio {
+  height: 20px;
+  visibility: hidden;
+  height: 0;
+  width: 0;
+  opacity: 0;
+}
+
+/* newly added css for contol button */
+.multi-create-radioPad__wrapper::before {
+  transform: translate(-110%, -110%) translateZ(0);
+}
+
+.multi-create-radioPad__wrapper:hover:before {
+  transform: translate(-45%, -34%) translateZ(0);
+  background: white;
+  color:  rgba(195, 0, 255, 1);
+}
+
+.multi-create-radioPad__wrapper:hover {
+  transform: translateY(-5px);
+}
+.operator-text
+{
+  position: relative;
+  bottom:1rem;
+  cursor: pointer;
+}
+
+.multi-create-button {
+  width: 200px;
+  height: 50px;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  font-size: inherit;
+  font-family: "Short Stack", cursive;
+}
+
+.multi-create-button {
+  font-weight: 800;
+  color: #382b22;
+  text-transform: uppercase;
+  /* padding: 1.25em 2em; */
+  background: #fff0f0;
+  border: 2px solid #b18597;
+  border-radius: 0.75em;
+  transform-style: preserve-3d;
+  transition: transform 150ms cubic-bezier(0, 0, 0.58, 1),
+    background 150ms cubic-bezier(0, 0, 0.58, 1);
+}
+
+.multi-create-button::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #f9c4d2;
+  border-radius: inherit;
+  box-shadow: 0 0 0 2px #b18597, 0 0.625em 0 0 #ffffff00;
+  transform: translate3d(0, 0.75em, -1em);
+  transition: transform 150ms cubic-bezier(0, 0, 0.58, 1),
+    box-shadow 150ms cubic-bezier(0, 0, 0.58, 1);
+}
+
+.multi-create-button:hover {
+  background: #ffe9e9;
+  transform: translate(0, 0.25em);
+}
+.multi-create-button:hover::before {
+  transform: translate3d(0, 0.5em, -1em);
+}
+.multi-create-button:active {
+  background: #ffe9e9;
+  transform: translate(0em, 0.75em);
+}
+.multi-create-button:active::before {
+  /* box-shadow: 0 0 0 2px #b18597, 0 0 #b9b7b779; */
+  transform: translate3d(0, 0, -1em);
+}
+
+.multi-create-option-title {
+  /* font-family: "Short Stack", cursive; */
+  font-weight: 500;
+  color: white;
+  font-size: 2.5rem;
+}
+
+.multi-create-title {
+
+  font-weight: 500;
+  color: white;
+  font-size: 2.5rem;
+}
+
+.alingment-content
+{
+  position: relative;
+  top: -18px;
+}

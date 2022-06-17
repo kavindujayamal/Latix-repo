@@ -1,0 +1,73 @@
+
+.label {
+	padding: 10px;
+	font-size: 18px;
+	color: white;
+	 font-family: "Dongle", sans-serif;
+}
+.copy-text {
+	position: relative;
+	padding: 8px;
+	background: rgba(129,5,240,1);
+	/* border: 3px solid #b18597; */
+	border-radius: 10px;
+    width: 50%;
+    height: 10%;
+    display: flex;
+    left: 25%;
+    right: 25%;
+	color: white;
+	box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+}
+
+.copy-text input.text {
+	padding: 10px;
+	font-size: 2rem;
+	background:rgba(129,5,240,1);
+	color: white;;
+	border: none;
+	outline: none;
+    box-shadow: none;
+    width: 90%;
+	text-align: center;
+
+}
+.copy-text button {
+    align-content: flex-end;
+	padding: 10px;
+	background: white;
+	color: rgba(129,5,240,1);
+	font-size: 18px;
+	border: none;
+	outline: none;
+	border-radius: 10px;
+	cursor: pointer;
+	width: 3.8rem;
+	box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+	/* height: 2.5rem; */
+}
+
+.copy-text button:active {
+	background: rgba(129,5,240,1);
+}
+.copy-text button:before {
+	content: "Copied";
+	position: absolute;
+	top: -45px;
+	right: 0px;
+	background: white;
+	padding: 8px 10px;
+	border-radius: 20px;
+	font-size: 15px;
+	display: none;
+}
+
+.copy-text.active button:before,
+.copy-text.active button:after {
+	display: block;
+}
+

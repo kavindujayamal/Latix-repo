@@ -1,0 +1,59 @@
+.CelDiv > input[type="text"] {
+  box-shadow: rgba(128, 181, 243, 0.966) 0px 3px 8px;
+  border-radius: 10px;
+  font-size: 3rem;
+  /* height: 6vh;
+  width: 5vw; */
+  text-align: center;
+  border-style: none;
+  pointer-events: none;
+  
+}
+
+.CelDiv-size-default > input[type="text"] {
+  height: 6vh;
+  width: 5vw;
+}
+
+.CelDiv-size-5  > input[type="text"]
+{
+    height: 10vh;
+    width: 9vw; 
+}
+
+.CelDiv-size-6  > input[type="text"]
+{
+    height: 9vh;
+    width: 8vw; 
+}
+
+.CelDiv-size-7  > input[type="text"]
+{
+    height: 7vh;
+    width: 7vw; 
+}
+.CelDiv-size-8  > input[type="text"]
+{
+    height: 7vh;
+    width: 6vw; 
+}
+
+.CelDiv-size-10 > input[type="text"]
+{
+    height: 6vh;
+    width: 5vw; 
+}
+
+.norml {
+  /* background: white; */
+  background: rgba(255, 255, 255, 0.6);
+  color: black;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+.enter {
+  background: rgb(41, 124, 248,0.8);
+  color: white;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}

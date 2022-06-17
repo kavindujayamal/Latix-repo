@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Dongle&display=swap");
+
+.modal-tabclose {
+  font-family: "Dongle", sans-serif;
+  background: #e4ebf5;
+  color: #8693b3;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.react-tabs {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border: none;
+  background-color: var(--bg-gray);
+}
+
+.react-tabs__tab-list {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  min-height: 350px;
+  margin: 0;
+  padding: 0;
+  padding-right: -5px;
+  font-size: 1.5rem;
+  letter-spacing: 2;
+  word-spacing: 1;
+  box-shadow: inset 0.15em 0.15em 0.15em var(--shadow-white),
+    inset -0.15em -0.15em 0.15em var(--shadow-gray),
+    0.3rem 0.3rem 0.6rem var(--shadow-gray),
+    -0.3rem -0rem 0.6rem var(--shadow-white);
+  background-color: var(--bg-gray);
+}
+
+.react-tabs__tab {
+  height: 70px;
+  list-style: none;
+  padding: 12px 6px;
+  line-height: 1;
+  cursor: pointer;
+  box-shadow: inset 0.2rem 0.2rem 0.5rem var(--shadow-gray),
+    inset -0.2rem -0.2rem 0.5rem var(--shadow-white);
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  cursor: pointer;
+  cursor: pointer;
+  color: #8693b3;
+}
+
+:root {
+  --shadow-white: white;
+  --shadow-gray: #c8d0e7;
+  --bg-gray: #e4ebf5;
+  --text-purple: #6d5dfc;
+}
+
+.react-tabs__tab--selected {
+  box-shadow: inset 0.15em 0.15em 0.15em var(--shadow-white),
+    inset -0em -0.15em 0.15em var(--shadow-gray),
+    -0rem -0rem 0.6rem var(--shadow-gray),
+    -0rem -0rem 0.6rem var(--shadow-white);
+  color: var(--text-purple);
+  width: 100%;
+}
+
+.react-tabs__tab-panel {
+  min-height: 350px;
+  max-height: 350px;
+  overflow-y: scroll;
+  padding-top: 20px;
+  padding-left: 10px;
+  text-align: justify;
+  display: none;
+  width: 100%;
+  box-shadow: 0.3rem 0.3rem 0.6rem var(--shadow-gray),
+    -0rem -0.2rem 0.5rem var(--shadow-white);
+  border-radius: 0 0 1rem 0;
+  background-color: var(--bg-gray);
+}
+.react-tabs__tab-panel--selected {
+  display: block;
+  width: 100%;
+  background-color: #e4ebf5;
+  box-shadow: inset 0em 0.15em 0.15em var(--shadow-white),
+    inset -0em -0.15em 0.15em var(--shadow-gray),
+    0rem 0.3rem 0.6rem var(--shadow-gray),
+    -0rem -0rem 0.6rem var(--shadow-white);
+}
+
+.react-tabs__tab {
+  padding-left: 24px;
+}
+
+.react-tabs__tab--selected {
+  padding-left: 21px;
+}
+
+.panel-content {
+  text-align: left;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+  font-family: "Dongle", sans-serif;
+  /* font-family: "Dongle", sans-serif;
+  color: #6d5dfc; */
+}
+
+.panel-content > h2 {
+  font-size: 2.5rem;
+  color: rgb(96, 9, 240);
+}
+
+.panel-content > p {
+  font-size: 1.5rem;
+  line-height: 1;
+  color: #8693b3;
+}
+
+.contact-body {
+  padding-top: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-family: "Dongle", sans-serif;
+  /* display: none; */
+  color: #8693b3;
+  font-size: 2rem;
+  line-height: 0;
+  width: 100%;
+  display: block;
+  width: 100%;
+  background-color: #e4ebf5;
+  box-shadow: inset 0.15em 0.15em 0.15em var(--shadow-white),
+    inset -0.15em -0.15em 0.15em var(--shadow-gray),
+    0.3rem 0.3rem 0.6rem var(--shadow-gray),
+    -0.3rem -0rem 0.6rem var(--shadow-white);
+  border-radius: 0.75rem;
+}

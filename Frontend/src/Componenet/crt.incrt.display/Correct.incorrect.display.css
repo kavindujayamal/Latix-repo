@@ -1,0 +1,25 @@
+.CorrectIncorrect-lable {
+  font-size: 2.3rem;
+  font-weight: 500;
+  color: white;
+}
+
+.CorrectIncorrect-value
+{
+  font-size: 2.3rem;
+  font-weight: 500;
+  color: #8a2be2;
+  background-color: white;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.crt-incrt-wrap
+{
+  width: 80%;
+}
+
+.CorrectIncorrect-row
+{
+  padding-top: 2vh;
+}

@@ -1,0 +1,46 @@
+.vh-10
+{
+    height: 10vh;
+}
+
+.vh-80 
+{
+    height: 80vh;
+}
+
+
+
+.multi-play-timer
+{
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin-right: 30px;
+    position: relative;
+    /* margin-bottom: 5vh;
+    margin-top: 15vh; */
+}
+
+.FinishList-conatiner
+{
+    padding-left: 355px;
+}
+
+.multi-play-time-label
+{
+    font-family: 'Short Stack', cursive;;
+    color: white;
+    font-size: 1.8rem;
+}
+
+.multi-submit-row
+{
+    padding-top: 3vh;
+}
+
+.multi-logo-style
+{
+    padding-top: 3px;
+    width:20vw;
+    height: 6vw; 
+}

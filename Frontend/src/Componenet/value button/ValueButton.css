@@ -1,0 +1,95 @@
+/* .wrap { */
+/* width: 300px; */
+/* margin: auto; */
+/* position: absolute; */
+/* top: 50%;
+    left: 50%; */
+/* transform: translate(-50%, -50%); */
+/* border-radius: 8rem; */
+/* background-color: #ffffff; */
+/* box-shadow: 0 1px 2px 0 #c9ced1; */
+/* padding: 1.25rem; */
+/* margin-bottom: 1.25rem;
+    text-align: center;
+  } */
+
+/* ------------------------------ COUNTER BEGIN ------------------------------ */
+.counter__increment,
+.counter__decrement {
+  transition: all 0.4s ease-in-out;
+}
+
+.counter {
+  position: relative;
+  width: 14.5rem;
+  height: 4.875rem;
+  /* border: 2px solid white; */
+  border-radius: 8px;
+  text-align: center;
+  overflow: hidden;
+  margin: auto;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+}
+.counter__input {
+  border: none;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+  color: rgba(195, 0, 255);
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.5rem;
+  /* background-color: transparent; */
+  background-color: white;
+  font-family: "Dongle", sans-serif;
+}
+.counter__increment,
+.counter__decrement {
+  position: absolute;
+  top: 0;
+  font-size: 1.8rem;
+  font-family: "Short Stack", cursive;
+  line-height: 1.5625rem;
+  height: 5rem;
+  width: 3.79rem;
+  font-weight: normal;
+  color: white;
+  text-decoration: none;
+  border: none;
+  padding: 0;
+  background-color: rgba(195, 0, 255, 0.637);
+  background: linear-gradient(
+    0deg,
+    rgba(96, 9, 240, 1) 0%,
+    rgba(195, 0, 255, 1) 100%
+  );
+  /* background-color: #f8dcdc; */
+}
+.counter__increment:hover,
+.counter__increment:active,
+.counter__decrement:hover,
+.counter__decrement:active {
+  color: white;
+  text-decoration: none;
+  background-color: rgba(96, 9, 240, 0.6);
+  background: linear-gradient(
+    0deg,
+    rgba(195, 0, 255, 1) 0%,
+    rgba(96, 9, 240, 1) 100%
+  );
+}
+.counter__increment {
+  right: 0;
+  /* border-left: 1px solid #2f3640; */
+  line-height: 1.6875rem;
+}
+.counter__decrement {
+  left: 0;
+  top: 0;
+  /* border-right: 1px solid #2f3640; */
+  line-height: 1.6875rem;
+}
+
+/* ------------------------------ COUNTER END ------------------------------ */

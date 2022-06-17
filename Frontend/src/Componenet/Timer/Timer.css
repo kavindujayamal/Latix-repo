@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500&display=swap");
+
+.clock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clock div {
+  position: relative;
+  margin: 0 5px;
+  width: 25vh;
+  height: 25vh;
+}
+
+.clock div p {
+  position: relative;
+  display: flex;
+  width: 90%;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  z-index: 1;
+  font-size: 5rem;
+  color: rgb(96, 9, 240);
+  border: none;
+  /* box-shadow: 0px 34px 45px 0px rgba(0, 0, 0, 0.56); */
+  /* font-family: 'Short Stack', cursive; */
+  font-weight: 500;
+  /* border: 2px solid #b18597 ; */
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+.clock div p:first-child {
+  border-radius: 20px 20px 0 0;
+  margin-bottom: 0;
+  color: rgb(96, 9, 240);
+}
+
+.clock div p:last-child {
+  font-size: 2rem;
+  height: 50px;
+  background-color: rgb(96, 9, 240);
+  border-radius: 0 0 20px 20px;
+  /* border-top: 2px solid #b18597; */
+  color: white;
+}
+
+.clock div:last-child p {
+  background-color: white;
+  color: rgb(96, 9, 240);
+}
+
+.clock div:last-child p:last-child {
+  background-color: rgb(96, 9, 240);
+  color: white;
+}

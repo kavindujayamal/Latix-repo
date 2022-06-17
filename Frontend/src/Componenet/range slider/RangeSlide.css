@@ -1,0 +1,100 @@
+.range-container {
+  position: relative;
+  font-family: "Short Stack", cursive;
+  font-size: 1.5rem;
+}
+
+input[type="range"] {
+  width: 300px;
+  margin: 18px 0;
+  -webkit-appearance: none;
+  background-color: transparent;
+  padding-bottom: 8px;
+}
+
+input[type="range"]:focus {
+  outline: none;
+}
+
+input[type="range"] + label {
+  background-color: white;
+  position: absolute;
+  top: -3rem;
+  left: 18vw;
+  width: 80px;
+  padding: 5px 0;
+  text-align: center;
+  border-radius: 4px;
+  font-size: 2rem;
+  color: rgba(195, 0, 255, 1);
+  /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); */
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+/* Chrome & Safari */
+input[type="range"]::-webkit-slider-runnable-track {
+  background: white;
+  border-radius: 6px;
+  width: 100%;
+  height: 12px;
+  cursor: pointer;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  /* border: 2.5px solid #b18597; */
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 24px;
+  width: 24px;
+  /* background: ; */
+  background-color: rgba(195, 0, 255, 1);
+  /* background: linear-gradient(0deg, rgba(96,9,240,1) 0%, rgba(195, 0, 255, 1) 100%); */
+  border-radius: 50%;
+  /* border: 1px solid #b18597; */
+  margin-top: -7px;
+  cursor: pointer;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+/* Firefox */
+input[type="range"]::-moz-range-track {
+  background: purple;
+  border-radius: 4px;
+  width: 100%;
+  height: 14px;
+  cursor: pointer;
+}
+
+input[type="range"]::-moz-range-thumb {
+  -webkit-appearance: none;
+  height: 24px;
+  width: 24px;
+  background: white;
+  border-radius: 50%;
+  border: 1px solid purple;
+  margin-top: -7px;
+  cursor: pointer;
+}
+
+/* IE */
+input[type="range"]::-ms-track {
+  background: purple;
+  border-radius: 4px;
+  width: 100%;
+  height: 14px;
+  cursor: pointer;
+}
+
+input[type="range"]::-ms-thumb {
+  -webkit-appearance: none;
+  height: 24px;
+  width: 24px;
+  background: white;
+  border-radius: 50%;
+  border: 1px solid purple;
+  margin-top: -7px;
+  cursor: pointer;
+}

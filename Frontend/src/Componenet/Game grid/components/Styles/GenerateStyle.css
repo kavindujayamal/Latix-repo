@@ -1,0 +1,54 @@
+.flex-box {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 1vw;
+  justify-content: center;
+}
+
+.flex-box > div {
+  /* background: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+  margin-right: 0.4vw;
+  margin-top: 0.1vw;
+
+  /* border-radius: 10px; */
+  /* padding: 2vw;
+  font-size: 30px; */
+}
+
+.Fixed {
+  width: 32vw;
+}
+
+.Fixed > div {
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+input[type="text"].LightBule {
+  box-shadow: rgba(128, 181, 243, 0.966) 0px 3px 8px;
+  background: #3fa8f4;
+  color: white;
+}
+
+input[type="text"].LightYellow {
+  box-shadow: rgba(222, 243, 128, 0.966) 0px 3px 8px;
+  background: rgba(187, 233, 19, 0.8);
+  color: white;
+}
+
+input[type="text"].LightOrang {
+  box-shadow: rgba(243, 193, 128, 0.966) 0px 3px 8px;
+  background: rgba(253, 189, 71, 0.8);
+  color: white;
+}
+
+input[type="text"].LightRed {
+  box-shadow: rgba(243, 93, 155, 0.966) 0px 3px 8px;
+  background: rgba(240, 31, 118, 0.8);
+  color: white;
+}

@@ -1,0 +1,159 @@
+/* .login-checkbox-multiplayer
+{
+    content: '';
+    width: 60px;
+    height: 25px;
+    border: solid #0079bf;
+    border-width: 0 2px 2px 0;
+    border-radius: 1rem;
+} */
+
+/* .login-checkbox-label-multiplayer
+{
+    background-color: darkorange;
+    color: white;
+    text-decoration: none;
+  color: #f1eff0;
+  font-size: 1rem;
+  font-family: 'Short Stack', cursive;
+  margin-bottom: 9px;
+} */
+
+.login-checkbox-label-multiplayer {
+  display: inline-block;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  font-size: 1.7rem;
+  font-family: "Dongle", sans-serif;
+}
+.login-checkbox-label-multiplayer span {
+  display: inline-block;
+  position: relative;
+  background-color: transparent;
+  width: 22px;
+  height: 22px;
+  transform-origin: center;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  vertical-align: -6px;
+  margin-right: 10px;
+  transition: background-color 150ms 200ms,
+    transform 350ms cubic-bezier(0.78, -1.22, 0.17, 1.89);
+}
+.login-checkbox-label-multiplayer span:before {
+  content: "";
+  width: 0px;
+  height: 2px;
+  border-radius: 2px;
+  background: #fff0f0;
+  position: absolute;
+  transform: rotate(45deg);
+  top: 9px;
+  left: 5.5px;
+  transition: width 50ms ease 50ms;
+  transform-origin: 0% 0%;
+}
+.login-checkbox-label-multiplayer span:after {
+  content: "";
+  width: 0;
+  height: 2px;
+  border-radius: 2px;
+  background: #fff0f0;
+  position: absolute;
+  transform: rotate(305deg);
+  top: 13px;
+  left: 7px;
+  transition: width 50ms ease;
+  transform-origin: 0% 0%;
+}
+.login-checkbox-label-multiplayer:hover span:before {
+  width: 5px;
+  transition: width 100ms ease;
+}
+.login-checkbox-label-multiplayer:hover span:after {
+  width: 10px;
+  transition: width 150ms ease 100ms;
+}
+
+.login-checkbox-multiplayer[type="checkbox"] {
+  display: none;
+}
+.login-checkbox-multiplayer[type="checkbox"]:checked
+  + .login-checkbox-label-multiplayer
+  span {
+  /* background-color: #fff0f0; */
+  background-color: #e4ebf5;
+    /* box-shadow: inset 0.15em 0.15em 0.15em white,
+      inset -0.15em -0.15em 0.15em #c8d0e7,
+      0.3rem 0.3rem 0.6rem #c8d0e7,
+      -0.3rem -0rem 0.6rem white;
+  transform: scale(1.25); */
+}
+.login-checkbox-multiplayer[type="checkbox"]:checked
+  + .login-checkbox-label-multiplayer
+  span:after {
+  width: 10px;
+  background: #8693b3;
+  transition: width 150ms ease 100ms;
+}
+.login-checkbox-multiplayer[type="checkbox"]:checked
+  + .login-checkbox-label-multiplayer
+  span:before {
+  width: 5px;
+  background: #8693b3;
+  transition: width 150ms ease 100ms;
+}
+.login-checkbox-multiplayer[type="checkbox"]:checked
+  + .login-checkbox-label-multiplayer:hover
+  span {
+  background-color: #fff;
+  transform: scale(1.25);
+}
+.login-checkbox-multiplayer[type="checkbox"]:checked
+  + .login-checkbox-label-multiplayer:hover
+  span:after {
+  width: 10px;
+  background: #8693b3;
+  transition: width 150ms ease 100ms;
+}
+.login-checkbox-multiplayer[type="checkbox"]:checked
+  + .login-checkbox-label-multiplayer:hover
+  span:before {
+  width: 5px;
+  background: #8693b3;
+  transition: width 150ms ease 100ms;
+}
+
+.Login-header-avatar-select {
+  text-decoration: none;
+  color: #f1eff0;
+  font-size: 2.5rem;
+  font-family: "Dongle", sans-serif;
+  /* margin-bottom: 5px; */
+  margin-top: 9px;
+}
+
+.Login-header-avatar-select-Avatar
+{
+  text-decoration: none;
+  color: #f1eff0;
+  font-size: 2.5rem;
+  font-family: "Dongle", sans-serif;
+  /* top: 2px; */
+ 
+}
+
+
+.btn-con {
+  position: relative;
+  bottom: 5px;
+  margin: 0;
+}
+
+.btn-2 {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+

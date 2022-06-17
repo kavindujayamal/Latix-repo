@@ -1,0 +1,23 @@
+.lable {
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 500;
+  color: black;
+}
+
+.text {
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+  text-align: center;
+  box-shadow: 1px 1px 2px black;
+  pointer-events: none;
+}
+
+.top {
+  display: inline;
+  column-gap: 20px;
+  position: relative;
+  top: 10px;
+  align-items: center;
+}

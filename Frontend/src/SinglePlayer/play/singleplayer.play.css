@@ -1,0 +1,71 @@
+.vh-5
+{
+    height: 5vh;
+}
+
+.vh-80 
+{
+    height: 80vh;
+}
+.vh-60{
+    height: 60vh;
+}
+.button-top
+{
+    position: relative;
+    top: -0.5rem;
+}
+.profile
+{
+    position: relative;
+    left: -4rem;
+}
+.single-play-subtitle-1
+{
+    /* font-family: 'Short Stack', cursive;; */
+    position: relative;
+    top: 2rem;
+    left: 1rem;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1;
+}
+.single-play-subtitle-2
+{
+    /* font-family: 'Short Stack', cursive;; */
+    color: white;
+    font-size: 3rem;
+    padding-bottom: 2vh;
+    font-weight: 500;
+}
+
+/* .single-play-submit-wrapper
+{
+    margin-top: 5vh;
+} */
+
+.single-play-avatar
+{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 3rem;
+    /* border: 6px solid #b18597; */
+    /* background-color: rgba(255, 255, 255, 0.932); */
+    padding: 20px;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    background-color: #e4ebf5;
+    /* background-color: rgba(255, 255, 255, 0.781); */
+      box-shadow: inset 0.15em 0.15em 0.15em white,
+        inset -0.15em -0.15em 0.15em #c8d0e7,
+        0.3rem 0.3rem 0.6rem #c8d0e7,
+        -0.3rem -0rem 0.6rem white;
+}
+
+.single-logo-style
+{
+    /* padding-top: 3px; */
+    width:15vw;
+    height: 6vw; 
+}

@@ -1,0 +1,57 @@
+.operator >input[type="text"] {
+   
+    border-radius: 10px;
+    font-size: 6rem;
+    padding-top: 14px;
+    /* height: 6vh;
+    width: 5vw; */
+    text-align: center;
+    border-style: none;
+    pointer-events: none;
+}
+
+
+
+  .operator-size-default > input[type="text"]
+{
+  height: 6vh;
+  width: 5vw; 
+}
+
+.operator-size-5  > input[type="text"]
+{
+    height: 10vh;
+    width: 9vw; 
+}
+
+.operator-size-6  > input[type="text"]
+{
+    height: 9vh;
+    width: 8vw; 
+}
+
+.operator-size-7  > input[type="text"]
+{
+    height: 7vh;
+    width: 7vw; 
+}
+.operator-size-8  > input[type="text"]
+{
+    height: 7vh;
+    width: 6vw; 
+}
+
+.operator-size-10  > input[type="text"]
+{
+    height: 6vh;
+    width: 5vw; 
+}
+
+
+
+input[type="text"].blue 
+{
+    box-shadow: rgba(128, 181, 243, 0.966) 0px 3px 8px;
+    background: rgb(41, 124, 248,0.8);
+    color: white;
+}
